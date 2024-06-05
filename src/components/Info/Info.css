@@ -1,0 +1,89 @@
+.Info {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  flex-direction: column;
+}
+
+.Info img {
+  margin-top: 50px;
+  width: 20%;
+  height: 20%;
+}
+
+.Info h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.Info h1 span {
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Info h4 {
+  text-align: center;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Info h4 span {
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Info-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.Info-connect {
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  transition: 0.5s;
+}
+
+.Info-resume {
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px Solid #ffff;
+  transition: 0.5s;
+}
+
+.Info-connect:hover {
+  border: 2px solid #fff;
+}
+
+.Info-resume:hover {
+  border: 2px solid #B923E1;
+}
+
+@media(max-width:768px) {
+  .Info img {
+    margin-bottom: 150px;
+    width: 260px;
+  }
+
+  .Info h1 {
+    text-align: center;
+    width: 90%;
+    font-size: 50px;
+    /* margin-top: 50px; */
+  }
+}
