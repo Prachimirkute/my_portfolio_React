@@ -76,7 +76,7 @@
 
 @media(max-width:768px) {
   .Info img {
-    margin-bottom: 150px;
+    margin-top: 120px;
     width: 260px;
   }
 
@@ -86,4 +86,70 @@
     font-size: 50px;
     /* margin-top: 50px; */
   }
+
+  .Info-action {
+    gap: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .Info-connect {
+    padding: 20px 30px;
+    border-radius: 40px;
+  }
+
+  .Info-resume {
+    padding: 20px 50px;
+    border-radius: 40px;
+  }
 }
+
+/* 
+@media (max-width: 375px) {
+  .Info img {
+    margin-bottom: 0px;
+    width: 260px;
+  }
+
+  .Info h1 {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .Info h4 {
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: -24px;
+  }
+
+  .Info-connect {
+    padding: 9px 11px;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    transition: 0.5s;
+  }
+
+  .Info-resume {
+    padding: 9px 11px;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px Solid #ffff;
+    transition: 0.5s;
+  }
+
+  .Info-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: -15px;
+  }
+} */

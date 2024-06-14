@@ -34,7 +34,7 @@ const mywork_data = [
         w_no: 2,
         w_name: "Web developer",
         w_img: project2_img,
-        w_projects: "Wordpress",
+        w_projects: "WORDPRESS",
         w_language: "WORDPRESS",
     },
     {
