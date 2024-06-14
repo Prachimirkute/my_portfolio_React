@@ -204,29 +204,29 @@
   }
 }
 
-/* 
-@media (max-width: 480px) {
-  .about {
-    margin: 40px 10px;
-  }
-
-  .about-title h1 {
-    font-size: 30px;
-  }
-
+@media (max-width: 390px) {
   .about-para {
+    line-height: 30px;
     font-size: 18px;
+    margin-top: -50px;
   }
 
-  .about-skill p {
-    font-size: 16px;
+
+  .about-achievements {
+    justify-content: space-between;
+  }
+
+  .about-achievement {
+    gap: 15px;
   }
 
   .about-achievement h1 {
-    font-size: 35px;
+    font-size: 34px;
+    font-weight: 700;
   }
 
   .about-achievement p {
-    font-size: 16px;
+    font-size: 12px;
+    text-align: center;
   }
-} */
+}

@@ -143,3 +143,33 @@
     margin-bottom: -22px;
   }
 } */
+
+@media (max-width: 390px) {
+
+  .mywork_container {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .mywork_container img {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+  }
+
+  .work-item {
+    margin-bottom: 40px;
+  }
+
+  .mywork_language {
+    margin-top: 0px;
+  }
+
+  .mywork_showmore {
+    padding: 20px 40px;
+    margin: 20px auto;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}

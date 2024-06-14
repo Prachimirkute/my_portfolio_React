@@ -107,6 +107,7 @@
 
 /* 
 @media (max-width: 375px) {
+
   .Info img {
     margin-bottom: 0px;
     width: 260px;
@@ -153,3 +154,38 @@
     margin-top: -15px;
   }
 } */
+
+@media (max-width: 390px) {
+  .Info img {
+    margin-top: 80px;
+    width: 260px;
+  }
+
+  .Info h1 {
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+    /* margin-top: 50px; */
+  }
+
+  .Info h4 {
+    font-size: 15px;
+  }
+
+  .Info-action {
+    gap: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+
+  .Info-connect {
+    padding: 20px 20px;
+    border-radius: 40px;
+  }
+
+  .Info-resume {
+    padding: 20px 20px;
+    border-radius: 40px;
+  }
+}
