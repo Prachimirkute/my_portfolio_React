@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./About.css";
-import profile_img from "../../assets/profile_img.png";
+import profile_img from "../../assets/profile_img.jpg";
 import Theme_pattern from "../../assets/theme_pattern.svg";
 const About = () => {
 

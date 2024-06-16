@@ -40,7 +40,7 @@ const Contact = () => {
         <div className="Contact-section">
         <div className="Contact-left">
         <h1>Let's talk</h1>
-<p>I'm currently available to take an new projects,so feel free to connect.</p>
+        <p>I'm currently available to take an new projects,so feel free to connect.</p>
        
        <div className="Contact-details">
         <div className="Contact-detail">

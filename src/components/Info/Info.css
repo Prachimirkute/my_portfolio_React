@@ -155,10 +155,10 @@
   }
 } */
 
-@media (max-width: 390px) {
+@media (max-width: 412px) {
   .Info img {
-    margin-top: 80px;
-    width: 260px;
+    margin-top: 30px;
+    width: 196px;
   }
 
   .Info h1 {

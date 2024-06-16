@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Info.css";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import profile_img from "../../assets/profile_img.png";
+import profile_img from "../../assets/profile_img.jpg";
 import resume from "../../assets/Prachi Mirkute_Resume.pdf";
 const Info = () => {
 

@@ -31,7 +31,7 @@
 }
 
 .about-section img {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -204,7 +204,7 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 412px) {
   .about-para {
     line-height: 30px;
     font-size: 18px;

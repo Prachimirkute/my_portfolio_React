@@ -61,9 +61,6 @@
     display: block;
     position: fixed;
     right: 100px;
-    /* top: 30px;
-    width: 30px;
-    z-index: 3; */
   }
 
   .nav-menu-close {
@@ -106,6 +103,14 @@
     display: none;
   }
 
+  .nav-menu-open {
+    display: block;
+    position: fixed;
+    right: 20px;
+  }
+}
+
+@media (max-width: 412px) {
   .nav-menu-open {
     display: block;
     position: fixed;

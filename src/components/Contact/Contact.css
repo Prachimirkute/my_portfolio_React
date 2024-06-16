@@ -189,6 +189,14 @@
     width: 25px;
   }
 
+  .Contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-top: -86px;
+  }
+
   .Contact-right label {
     font-size: 20px;
   }
@@ -213,7 +221,7 @@
 
   .Contact-title h1 {
     padding: 0;
-    font-size: 45px;
+    font-size: 39px;
     font-weight: 600;
   }
 
