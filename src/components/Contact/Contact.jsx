@@ -61,11 +61,11 @@ const Contact = () => {
     </div>
     <form onSubmit={onSubmit} className="Contact-right">
         <label htmlFor="">Your Name : </label>
-        <input type="text" name="name" placeholder="Enter your name "/>
+        <input type="text" name="name" placeholder="Enter your name " required/>
         <label htmlFor="">Your Email : </label>
-        <input type="email" name="email" placeholder="Enter your email address "/>
+        <input type="email" name="email" placeholder="Enter your email address" required/>
         <label htmlFor="">Write your message here</label>
-        <textarea rows="8" name="message" placeholder="Enter your message "/>
+        <textarea rows="8" name="message" placeholder="Enter your message" required/>
         <button type="submit" className="Contact-submit">Submit Now</button>
           </form>
           {/* <span>{result}</span> */}
