@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-top">
       <div className="footer-top-left"> 
       <h4>Prachis Portfolio</h4>
-          <p>I am a frontend developer from Dublin, Ireland with 3+ years of experience in two companies</p>
+          <p>I am a Software developer from Dublin, Ireland with 3+ years of experience in two companies</p>
       </div>
       <div className="footer-top-right">
                 <a href='https://www.linkedin.com/in/prachi-mirkute-53a984152/'><FaLinkedin /></a>
