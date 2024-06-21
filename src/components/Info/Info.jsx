@@ -15,9 +15,9 @@ const Info = () => {
           src={profile_img}
         ></img>
     <h1>
-    <span>Hey there! I'm Prachi</span> , Frontend developer based in Ireland. 
+    <span>Hey there! I'm Prachi</span> , Software developer based in Ireland. 
       </h1>
-      <h4>I am a frontend developer from Dublin, Ireland with 3+ years of experience in two companies like babylon Radio and Mobileware technology.
+      <h4>I am a Software developer from Dublin, Ireland with 3+ years of experience in two companies like babylon Radio and Mobileware technology.
       </h4>
       <div className="Info-action">
         <div className="Info-connect"><AnchorLink className="anchor-link" offset='50' href='#Contact'>Connect With Me</AnchorLink></div>
