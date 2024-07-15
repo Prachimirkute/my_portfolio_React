@@ -19,10 +19,10 @@ const Info = () => {
       </h1>
       <h4>I am a Software developer from Dublin, Ireland with 3+ years of experience in two companies like babylon Radio and Mobileware technology.
       </h4>
-      <div className="Info-action">
+      {/* <div className="Info-action">
         <div className="Info-connect"><AnchorLink className="anchor-link" offset='50' href='#Contact'>Connect With Me</AnchorLink></div>
         <div className="Info-resume"><a className="anchor-link" offset='50' href={resume} >My Resume</a></div>
-      </div>
+      </div> */}
       </div>
       </div>
   );
