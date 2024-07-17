@@ -17,3 +17,46 @@ body {
   background-color: #161313;
   color: white;
 }
+
+.sprinkle-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.sprinkle-background::before,
+.sprinkle-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.sprinkle-background::before {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+  background-size: 15px 15px;
+  animation: sprinkle 5s linear infinite;
+}
+
+.sprinkle-background::after {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+  background-size: 15px 15px;
+  animation: sprinkle 10s linear infinite reverse;
+}
+
+@keyframes sprinkle {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(100px, 100px);
+  }
+}
