@@ -21,11 +21,11 @@ const About = () => {
           <p>My passion for Software development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
     </div>
     <div className="about-skills">
-        <div className="about-skill"><p>HTML & CSS  </p><hr style={{width:"60%"}}/></div>
+        <div className="about-skill"><p>HTML & CSS  </p><hr style={{width:"100%"}}/></div>
         <div className="about-skill"><p>JavaScript (ES6+)</p><hr style={{width:"70%"}}/></div>
-        <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}}/></div>
+        <div className="about-skill"><p>Angular </p><hr style={{width:"30%"}}/></div>
         <div className="about-skill"><p>Vue JS </p><hr style={{width:"40%"}}/></div>
-        <div className="about-skill"><p>Angular </p><hr style={{width:"50%"}}/></div>
+        <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}}/></div> 
         <div className="about-skill"><p>NodeJS, ExpressJS</p><hr style={{width:"60%"}}/></div>
         <div className="about-skill"><p>MySQL</p><hr style={{width:"60%"}}/></div>
         <div className="about-skill"><p>WordPress</p><hr style={{width:"60%"}}/></div>

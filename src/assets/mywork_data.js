@@ -4,8 +4,17 @@ import project3_img from '../assets/project_3.png'
 import project4_img from '../assets/project_4.png'
 import project5_img from '../assets/project_5.png'
 import project6_img from '../assets/project_6.png'
+import project7_img from '../assets/photo7.png'
 
 const mywork_data = [
+    {
+        w_no: 7,
+        w_name: "Full Stack developer",
+        w_img: project7_img,
+        w_projects: "Employee Information Application",
+        w_language: "HTML, CSS, JAVASCRIPT, VUEJS, NODEJS",
+        w_link: "https://test.mvdhcollegeshahad.com/",
+    },
     {
         w_no: 1,
         w_name: "Web developer",
